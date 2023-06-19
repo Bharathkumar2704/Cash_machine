@@ -1,0 +1,16 @@
+> LOAD 10 1
+= 10 1£
+> LOAD 20 2
+= 10 1£, 20 2£
+> EXCHANGE 20
+< 10 1£, 5 2£
+= 15 2£, 1 20£
+> EXCHANGE 20
+< 10 2£
+= 5 2£, 2 20£
+> EXCHANGE 20
+< CANNOT EXCHANGE
+= 5 2£, 2 20£
+> EXCHANGE 10
+< 5 2£
+= 1 10£, 2 20£
